@@ -11,6 +11,18 @@ body {
     background-color: rgba(246,248,249,255);
 }
 
+#main-container {
+    width: 70%;
+    margin: 50px auto;
+    background-color: rgba(255,255,255,255);
+}
+
+hr {
+    background-color: rgba(203,209,213,255);
+    height: 1px;
+    border: 0;
+}
+
 /* HEADER */
 .header {
     background-color: rgba(255,255,255,255);
@@ -31,23 +43,47 @@ body {
     font-size: 3rem;
 }
 
-
-
-
-
-
-.header {
-    height: 80px;
-    line-height: 80px;
+/* MAIN */
+.container {
+    width: 90%;
+    margin: 0 auto;
 }
 
-#header-logo {
-    height: 60px;
-    vertical-align: middle;
-}
-
-.header-title {
+/* BUTTONS */
+.button1 {
     display: inline-block;
-    color: white;
+    height: 30px;
     vertical-align: middle;
+    background-color: rgba(71,173,241,255);
+    border-radius: 10%;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px 0;
+    border-style: solid;
+    border-color: rgba(71,173,241,255);
+}
+
+.button1 span {
+    color: rgba(255,255,255,255);
+    padding: 0 15px;
+    font-size: 0.8rem;
+}
+
+.button2 {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    background-color: rgba(255,255,255,255);
+    border-radius: 10%;
+    text-align: center;
+    line-height: 30px;
+    margin: 10px 0;
+    border-style: solid;
+    border-color: rgba(203,209,213,255);
+}
+
+.button2 span {
+    color: rgba(203,209,213,255);
+    padding: 0 15px;
+    font-size: 0.8rem;
 }
