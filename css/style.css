@@ -95,7 +95,7 @@ hr {
 }
 
 .list {
-    padding: 40px 0;
+    padding: 40px 0 0 0;
 }
 
 ul {
@@ -127,7 +127,23 @@ p {
     display: inline-block;
 }
 
-.edit {
+.red {
+    display: inline-block;
+    background-color: rgba(255,255,255,255);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgba(255,0,0,255);
+    text-align: center;
+    line-height: 20px;
+    color: rgba(255,0,0,255);
+    font-size: 0.8rem;
+    margin: 0 10px;
+}
+
+/* FIRST LIST */
+.edit-blue {
     display: inline-block;
     height: 30px;
     vertical-align: middle;
@@ -140,7 +156,65 @@ p {
     margin: 0 10px;
 }
 
-.edit span {
+.edit-blue span {
+    color: rgba(255,255,255,255);
+    padding: 0 15px;
+    font-size: 0.8rem;
+}
+
+/* SECOND LIST */
+.edit-purple {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    background-color: rgba(156,114,228,255);
+    border-radius: 50px;
+    text-align: center;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgba(156,114,228,255);
+    margin: 0 10px;
+}
+
+.edit-purple span {
+    color: rgba(255,255,255,255);
+    padding: 0 15px;
+    font-size: 0.8rem;
+}
+
+.edit-green {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    background-color: rgba(100,192,169,255);
+    border-radius: 50px;
+    text-align: center;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgba(100,192,169,255);
+    margin: 0 10px;
+}
+
+.edit-green span {
+    color: rgba(255,255,255,255);
+    padding: 0 15px;
+    font-size: 0.8rem;
+}
+
+.edit-orange {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    background-color: rgba(242,158,51,255);
+    border-radius: 50px;
+    text-align: center;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgba(242,158,51,255);
+    margin: 0 10px;
+}
+
+.edit-orange span {
     color: rgba(255,255,255,255);
     padding: 0 15px;
     font-size: 0.8rem;
