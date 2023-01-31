@@ -4,3 +4,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
