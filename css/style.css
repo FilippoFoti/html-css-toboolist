@@ -7,7 +7,47 @@
 
 /* COMMON */
 body {
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Space Mono', monospace;
+    background-color: rgba(246,248,249,255);
+}
+
+/* HEADER */
+.header {
+    background-color: rgba(255,255,255,255);
+    height: 80px;
+    line-height: 80px;
+}
+
+#logo {
+    height: 60px;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+
+.header h1 {
+    display: inline-block;
+    color: rgba(0,0,0,255);
+    vertical-align: middle;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+.header {
+    height: 80px;
+    line-height: 80px;
+}
+
+#header-logo {
+    height: 60px;
+    vertical-align: middle;
+}
+
+.header-title {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
 }
