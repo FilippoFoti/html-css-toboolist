@@ -87,3 +87,61 @@ hr {
     padding: 0 15px;
     font-size: 0.8rem;
 }
+
+/* LIST */
+.container-list {
+    width: 90%;
+    margin: 0 auto 20px;
+}
+
+.list {
+    padding: 40px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px 0;
+    /* display: flex; */
+}
+
+.green {
+    display: inline-block;
+    background-color: rgba(255,255,255,255);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgba(0,128,0,255);
+    text-align: center;
+    line-height: 20px;
+    color: rgba(0,128,0,255);
+    font-size: 0.8rem;
+    margin: 0 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    display: inline-block;
+}
+
+.edit {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    background-color: rgba(71,173,241,255);
+    border-radius: 50px;
+    text-align: center;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgba(71,173,241,255);
+    margin: 0 10px;
+}
+
+.edit span {
+    color: rgba(255,255,255,255);
+    padding: 0 15px;
+    font-size: 0.8rem;
+}
