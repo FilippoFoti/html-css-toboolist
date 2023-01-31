@@ -219,3 +219,42 @@ p {
     padding: 0 15px;
     font-size: 0.8rem;
 }
+
+/* THIRD LIST */
+.edit-fuchsia {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    background-color: rgba(216,99,161,255);
+    border-radius: 50px;
+    text-align: center;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgba(216,99,161,255);
+    margin: 0 10px;
+}
+
+.edit-fuchsia span {
+    color: rgba(255,255,255,255);
+    padding: 0 15px;
+    font-size: 0.8rem;
+}
+
+.edit-lime {
+    display: inline-block;
+    height: 30px;
+    vertical-align: middle;
+    background-color: rgba(176,201,38,255);
+    border-radius: 50px;
+    text-align: center;
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgba(176,201,38,255);
+    margin: 0 10px;
+}
+
+.edit-lime span {
+    color: rgba(255,255,255,255);
+    padding: 0 15px;
+    font-size: 0.8rem;
+}
